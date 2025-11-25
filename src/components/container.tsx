@@ -9,14 +9,14 @@ export const Container = ({
   className?: string;
 }) => {
   return (
-    <div className="flex justify-center items-center w-full min-h-screen">
+    <div className="flex justify-center items-center w-full min-h-screen md:-mt-40">
       <div
         className={cn(
           `
             w-full 
             max-w-[95%] sm:max-w-[90%] md:max-w-7xl 
             px-4 sm:px-6 
-            mt-10 md:mt-20 
+             md:mt-20 
             relative z-10
           `,
           className
