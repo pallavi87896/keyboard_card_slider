@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Keys from './keys';
 
 type KeyboardProps={
